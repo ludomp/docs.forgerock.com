@@ -1,0 +1,156 @@
+/*
+ * CCPL HEADER START
+ *
+ * This work is licensed under the Creative Commons
+ * Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+ * To view a copy of this license, visit
+ * http://creativecommons.org/licenses/by-nc-nd/3.0/
+ * or send a letter to Creative Commons, 444 Castro Street,
+ * Suite 900, Mountain View, California, 94041, USA.
+ * 
+ * See the License for the specific language governing permissions
+ * and limitations under the License.
+ *
+ * If applicable, add the following below this CCPL HEADER, with the fields
+ * enclosed by brackets "[]" replaced with your own identifying information:
+ *     Portions Copyright [yyyy] [name of copyright owner]
+ *
+ * CCPL HEADER END
+ *
+ *     Copyright 2011 ForgeRock AS
+ *
+ */
+
+body {
+ background: url(images/background-gradient.png) repeat-x #dddddd;
+ background-color: #b3b8bb;
+ border: 0;
+ color: #333;
+ font-family: Verdana, Helvetica, Arial, sans-serif;
+ /*max-width: 800px;*/
+ margin-left: auto;
+ margin-right: auto;
+ outline: 0;
+ padding: 0px 0px 0px 0px;
+}
+
+#header {
+ color: #868686;
+ font-size: small;
+ padding: 10px 20px 10px 20px;
+ text-decoration: none;
+}
+
+#logo {
+ float: left;
+ border: 0;
+}
+
+#links {
+ float: right;
+ overflow: hidden;
+}
+
+a {
+ text-decoration: none;
+ color: #f58220;
+}
+
+h1.title {
+ font-size: x-large;
+ margin-top: -12px;
+ text-align: center;
+ vertical-align: top;
+}
+
+ul {
+ list-style-type: none;
+ list-style-position: outside;
+ padding: 2px;
+}
+
+li {
+ padding-left: 2px;
+ font-weight: bold;
+}
+
+li.link {
+ font-size: smaller;
+ font-weight: normal;
+}
+
+table {
+ margin: auto;
+ width: 60%;
+}
+
+td, th {
+ padding: 5px;
+}
+
+td.name, th.name {
+ text-align: left;
+}
+
+td.link, th.link {
+ text-align: center;
+}
+
+#header a {
+ color: #868686;
+ text-decoration: none;
+}
+
+#header a:active, #header a:hover {
+ color: #f58220;
+}
+
+#body {
+ background-color: #fff;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+ clear: both;
+ margin: 5px;
+ overflow: auto;
+}
+
+#leftmenu {
+ border-right: 1px solid #d4d4d4;
+ float: left;
+ height: 100%;
+ overflow: auto;
+ padding: 10px;
+ width: 25%;
+}
+
+#siteSearchBox {
+ padding: 2px;
+}
+
+#content {
+ padding: 20px;
+}
+
+.nodisplay {
+ display: none;
+}
+
+/* Footer inlines */
+#footer {
+ clear: both;
+}
+
+#footer p {
+ color: #444;
+ font-size: x-small;
+ text-align: center;
+}
+
+#footer a {
+ color: #555;
+ text-decoration: none;
+}
+
+#footer a:active, #footer a:hover {
+ color: #f58220;
+}
