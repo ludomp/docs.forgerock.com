@@ -27,11 +27,15 @@ body {
  border: 0;
  color: #333;
  font-family: Verdana, Helvetica, Arial, sans-serif;
- /*max-width: 800px;*/
  margin-left: auto;
  margin-right: auto;
  outline: 0;
  padding: 0px 0px 0px 0px;
+}
+
+#wholepage {
+ max-width: 1100px;
+ margin: 0 auto 0 auto; /* Centered by auto right and left margins */
 }
 
 #header {
@@ -57,6 +61,7 @@ a {
 }
 
 h1.title {
+ color: #f58220;
  font-size: x-large;
  margin-top: -12px;
  text-align: center;
@@ -84,12 +89,21 @@ table {
  width: 60%;
 }
 
+thead th {
+ border-bottom: 1px solid #cccccc;
+}
+
+th {
+ color: #868686;
+}
+
 td, th {
  padding: 5px;
 }
 
 td.name, th.name {
  text-align: left;
+ font-style:italic
 }
 
 td.link, th.link {
