@@ -59,7 +59,8 @@ with `mvn clean site`.
     `OpenIDM-2.0.0-Release-Notes.pdf`.
 3.  Add the `index.html` files that redirect by product and by version to
     the top-level `en/index.html` file.
-4.  Move your updated `doc` directory under `product/version/en` in the site
+4.  Replace `coredoc.css` files with `css/coredoc.css` (after reading comments).
+5.  Move your updated `doc` directory under `product/version/en` in the site
     directory.
 
 
