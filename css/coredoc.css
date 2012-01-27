@@ -19,7 +19,7 @@
  *
  * CCPL HEADER END
  *
- *     Copyright 2011 ForgeRock AS
+ *     Copyright 2011-2012 ForgeRock AS
  *    
 */
 
@@ -35,12 +35,7 @@
  */
 html
 {
-	background-image: linear-gradient(bottom, rgb(66,66,66) 14%, rgb(33,33,33) 57%, rgb(0,0,0) 79%);
-	background-image: -o-linear-gradient(bottom, rgb(66,66,66) 14%, rgb(33,33,33) 57%, rgb(0,0,0) 79%);
-	background-image: -moz-linear-gradient(bottom, rgb(66,66,66) 14%, rgb(33,33,33) 57%, rgb(0,0,0) 79%);
-	background-image: -webkit-linear-gradient(bottom, rgb(66,66,66) 14%, rgb(33,33,33) 57%, rgb(0,0,0) 79%);
-	background-image: -ms-linear-gradient(bottom, rgb(66,66,66) 14%, rgb(33,33,33) 57%, rgb(0,0,0) 79%);
-	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.14, rgb(66,66,66)), color-stop(0.57, rgb(33,33,33)), color-stop(0.79, rgb(0,0,0)));
+    background: url(images/canvas-background.png);
 }
 
 body

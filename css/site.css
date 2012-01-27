@@ -17,13 +17,12 @@
  *
  * CCPL HEADER END
  *
- *     Copyright 2011 ForgeRock AS
+ *     Copyright 2011-2012 ForgeRock AS
  *
  */
 
 body {
- background: url(images/background-gradient.png) repeat-x #dddddd;
- background-color: #b3b8bb;
+ background: url(images/canvas-background.png);
  border: 0;
  color: #333;
  font-family: Verdana, Helvetica, Arial, sans-serif;

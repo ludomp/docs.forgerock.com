@@ -1,6 +1,6 @@
-# The docs.forgerock.com Idea
+# The docs.forgerock.org Idea
 
-The docs.forgerock.com idea is to have one location where we publish
+The docs.forgerock.org idea is to have one location where we publish
 finished core documentation for ForgeRock projects at the time they release.
 
 *Publish* means put it up for public view, and leave it there.
@@ -9,12 +9,12 @@ finished core documentation for ForgeRock projects at the time they release.
 [review](https://wikis.forgerock.org/confluence/display/devcom/Review+Process),
 and deemed ready for publication by the person in charge of the release.
 
-This is why the docs.forgerock.com idea is not implemented as a wiki:
+This is why the docs.forgerock.org idea is not implemented as a wiki:
 Published core documentation is technically accurate and complete with
-respect to the release. So it is done and dusted, rather than a work in
+respect to the release. It is done and dusted, rather than a work in
 progress.
 
-You can log bugs and request enhancements. Nearly all the time those get
+You can log bugs and request enhancements. Those nearly always get
 fixed in a subsequent release.
 
 *Core documentation* refers to distilled content that helps readers understand
@@ -24,7 +24,7 @@ other code, and that ForgeRock refers to as the official documentation for a
 release.
 
 Readers have other forms of documentation available to them, from IRC logs
-and mail, blogs and wikis, to books and articles. docs.forgerock.com exists
+and mail, blogs and wikis, to books and articles. docs.forgerock.org exists
 alongside these alternatives.
 
 *ForgeRock projects* are at <http://forgerock.org/>.
@@ -56,7 +56,7 @@ with `mvn clean site`.
 1.  Under `site/doc`, remove the .epub and .rtf.
 2.  Under `site/doc`, rename the .pdf to include the version number in the
     name. For example, `OpenIDM-Release-Notes.pdf` becomes
-    `OpenIDM-2.0.0-Release-Notes.pdf`.
+    `OpenIDM-2.0.1-Release-Notes.pdf`.
 3.  Add the `index.html` files that redirect by product and by version to
     the top-level `en/index.html` file.
 4.  Replace `coredoc.css` files with `css/coredoc.css` (after reading comments).
@@ -89,4 +89,4 @@ To view a copy of this license, visit
 or send a letter to Creative Commons, 444 Castro Street,
 Suite 900, Mountain View, California, 94041, USA.
 
-Copyright 2011 ForgeRock AS
+Copyright 2011-2012 ForgeRock AS
