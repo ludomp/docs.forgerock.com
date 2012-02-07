@@ -22,7 +22,8 @@
  */
 
 body {
- background: url(images/canvas-background.png);
+ background-image:url(images/canvas-background.png);
+ background-size:100%;
  border: 0;
  color: #333;
  font-family: Verdana, Helvetica, Arial, sans-serif;
