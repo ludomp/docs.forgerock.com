@@ -34,7 +34,8 @@ body {
 }
 
 #wholepage {
- max-width: 1100px;
+ min-width: 1024px;
+ max-width: 1024px;
  margin: 0 auto 0 auto; /* Centered by auto right and left margins */
 }
 
